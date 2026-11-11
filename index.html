@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VelaMusic — 技术支持</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 40px 20px 80px; background: #f7f6fb; color: #241f38;
+         font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+         line-height: 1.8; }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: .5px; }
+  .sub { color: #736a91; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 18px; margin: 30px 0 12px; padding-bottom: 8px;
+       border-bottom: 1px solid #e4e0f0; }
+  .card { background: #fff; border: 1px solid #e6e2f2; border-radius: 16px;
+          padding: 20px 22px; margin-bottom: 14px; }
+  .q { font-weight: 600; font-size: 15px; margin: 0 0 6px; }
+  .a { margin: 0; color: #4f476c; font-size: 14px; }
+  a { color: #7a4fe0; }
+  footer { margin-top: 36px; font-size: 13px; color: #736a91; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>VelaMusic 技术支持</h1>
+  <div class="sub">本地高保真音乐播放器 · 完全离线 · 无账号 · 无广告 · 无内购</div>
+
+  <h2>常见问题</h2>
+
+  <div class="card">
+    <p class="q">如何把音乐放进 App？</p>
+    <p class="a">两种方式：在「资料库」右上角 + 选择「导入音乐 / 歌词」从「文件」App 选取；
+       或打开「传输」页开关，在同一 Wi-Fi 下用电脑浏览器访问页面显示的地址，把文件拖进网页即可。
+       同名 .lrc / .srt 歌词会自动关联。</p>
+  </div>
+
+  <div class="card">
+    <p class="q">支持哪些格式？</p>
+    <p class="a">FLAC、ALAC、WAV、AIFF、MP3、AAC / M4A、Ogg Vorbis、CAF、DSF 等，
+       按文件头识别真实格式。APE、WavPack、WMA、TTA 暂不支持，导入时会明确提示。</p>
+  </div>
+
+  <div class="card">
+    <p class="q">为什么音量滑杆和物理音量键是同步的？</p>
+    <p class="a">App 使用系统音量控制，与物理按键、控制中心、锁屏音量条是同一套值。
+       睡前定时只做渐隐，不会改动系统音量。</p>
+  </div>
+
+  <div class="card">
+    <p class="q">私密文件夹安全吗？</p>
+    <p class="a">使用系统 Face ID / 设备密码与 AES-256-GCM 加密，密钥仅保存在本机钥匙串，
+       不上传、不同步 iCloud。移入即加密，移出即解密。重录 Face ID 或抹掉设备后旧密钥会失效，
+       重要文件请定期移出备份。</p>
+  </div>
+
+  <div class="card">
+    <p class="q">播放到最后一首如何循环？</p>
+    <p class="a">播放器右下角循环按钮依次切换「不循环 → 列表循环 → 单曲循环」，
+       切换时会显示当前模式。列表循环播完最后一首会回到第一首。</p>
+  </div>
+
+  <div class="card">
+    <p class="q">需要联网或账号吗？</p>
+    <p class="a">不需要。App 不连接任何服务器，没有账号体系，也不收集或上传任何数据。
+       Wi-Fi 传输仅在用户主动开启时于本机局域网内监听。</p>
+  </div>
+
+  <h2>更多信息</h2>
+  <div class="card">
+    <p class="a">隐私说明请见 <a href="privacy.html">隐私政策</a>。<br>
+       如需进一步协助，请通过 App Store 中本 App 页面提供的开发者联系方式与我们联系。</p>
+  </div>
+
+  <footer>© 2026 VelaMusic · 本页为静态说明页面，不收集任何访问数据。</footer>
+</div>
+</body>
+</html>
